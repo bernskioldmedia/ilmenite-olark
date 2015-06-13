@@ -17,6 +17,9 @@ Included in the package are translations for the following languages (apart from
 
 A complete *.pot* file is available in the *translations/* directory. If you use and translate this little plugin, please send us the translation so it can be included!
 
+## Support
+We provide minimal support for this plugin, but we are happy to take requests and are commited to fixing bugs. Please report them in our GitHub repository: https://github.com/bernskioldmedia/ilmenite-olark/issues
+
 ## Changelog
 
 **Version 1.0**
