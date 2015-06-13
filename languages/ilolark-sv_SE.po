@@ -1,0 +1,258 @@
+# Copyright (C) 2015 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://github.com/bernskioldmedia/ilmenite-olark/"
+"issues\n"
+"POT-Creation-Date: 2015-06-13 14:32:11+00:00\n"
+"PO-Revision-Date: 2015-06-13 16:33+0100\n"
+"Last-Translator: Erik Bernskiold <erik@bernskioldmedia.com>\n"
+"Language-Team: Bernskiold Media <info@bernskioldmedia.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/ilmenite-olark-options.php:28 admin/ilmenite-olark-options.php:180
+msgid "Olark Integration"
+msgstr "Olark-integration"
+
+#: admin/ilmenite-olark-options.php:28
+msgid "Olark"
+msgstr "Olark"
+
+#: admin/ilmenite-olark-options.php:42
+msgid "General Configuration"
+msgstr "Allmänna inställnignar"
+
+#: admin/ilmenite-olark-options.php:50
+msgid "Activate"
+msgstr "Aktivera"
+
+#: admin/ilmenite-olark-options.php:57
+msgid "Active Olark on the site"
+msgstr "Aktivera Olark på din webbplats"
+
+#: admin/ilmenite-olark-options.php:64
+msgid "Olark Site ID"
+msgstr "Olark \"Site ID\""
+
+#: admin/ilmenite-olark-options.php:71
+msgid ""
+"Insert the Site ID from your Olark account here.<br>If you don't know your "
+"Site ID, you can find it <a href=\"%s\" target=\"_blank\">on Olark's install "
+"page here</a>. "
+msgstr ""
+"Infoga webbplatsens \"Site ID\" från ditt Olark konto här.<br>Om du inte kan "
+"ditt \"Site ID\" så hittar du det på <a href=\"%s\" target=\"_blank\">Olarks "
+"installationssida här</a>. "
+
+#: admin/ilmenite-olark-options.php:78
+msgid "Localization"
+msgstr "Översättning"
+
+#: admin/ilmenite-olark-options.php:86
+msgid "Localization Support"
+msgstr "Översättnigsstöd"
+
+#: admin/ilmenite-olark-options.php:93
+msgid "Load Olark Localization Code"
+msgstr "Ladda kod för översättning av Olark"
+
+#: admin/ilmenite-olark-options.php:114
+msgid ""
+"By default, Olark is only available in one configured language. By checking "
+"this box, we will load a script that localizes the chat box strings to the "
+"current website language using the plugin translations. This works well with "
+"multilingual plugins too."
+msgstr ""
+"Som standard är Olark endast tillgänglig på ett konfigurerat språk. Genom "
+"att kryssa i denna ruta laddar vi ett skript som översätter chattrutan till "
+"webbplatsens nuvarande språk genom tilläggets översättningar. Detta fungerar "
+"även bra med tillägg för flerspråkighet."
+
+#: admin/ilmenite-olark-options.php:181
+msgid ""
+"This (unofficial) Olark integration plugin offers an easy way to add the "
+"Olark code to your WordPress site and adds full localization support for "
+"your chat box."
+msgstr ""
+"Detta (inofficiella) integrationstillägg för Olark erbjuder ett enkelt sätt "
+"att lägga in koden för Olark på den WordPress-webbplats samt ger fullt "
+"översättningsstöd för chattrutan."
+
+#: admin/ilmenite-olark-options.php:182
+msgid ""
+"<strong>Getting Started</strong><br>Just a couple of steps are necessary to "
+"get your Olark chat box added to your site. Go through the settings on this "
+"page and set them as needed and you'll be up and running right away"
+msgstr ""
+"<strong>Komma igång</strong><br>Det behövs bara ett par steg för att lägga "
+"till Olarks chattruta på din webbplats. Gå igenom inställningarna på denna "
+"sida och ställ in dem enligt önskemål så kommer du vara igång direkt."
+
+#: admin/ilmenite-olark-options.php:183
+msgid ""
+"<strong>Need Help?</strong><br>If you find an issue with this plugin, please "
+"do report it over on <a href=\"%s\">our GitHub repository</a>. If you need "
+"help with configuring Olark itself, you should get in touch with them."
+msgstr ""
+"<strong>Behöver du hjälp?</strong><br>Om du hittar ett fel eller har ett "
+"önskemål om detta tillägg, rapportera det i vårt <a href=\"%a\">GitHub "
+"repository</a>. Om du behöver hjälp med att konfigurera Olark i sig bör du "
+"sätta dig i kontakt direkt med deras kundtjänst."
+
+#: ilmenite-olark.php:163
+msgid "Contact us"
+msgstr "Kontakta oss"
+
+#: ilmenite-olark.php:163
+msgid "Questions? Feedback?"
+msgstr "Frågor? Feedback?"
+
+#: ilmenite-olark.php:163
+msgid ""
+"powered by <a href=\"http://www.olark.com?welcome\" title=\"Olark live chat "
+"software\">Olark live chat software</a>"
+msgstr ""
+"drivs av <a href=\"http://www.olark.com?welcome\" title=\"Olark live chat "
+"software\">Olark live chatt</a>"
+
+#: ilmenite-olark.php:186
+msgid "Help? Click to chat"
+msgstr "Hjälp? Klicka för att chatta"
+
+#: ilmenite-olark.php:187
+msgid "Live Help: Now Chatting"
+msgstr "Livehjälp: Chattar"
+
+#: ilmenite-olark.php:188
+msgid "Live Help: Offline"
+msgstr "Livehjälp: Offline"
+
+#: ilmenite-olark.php:189
+msgid "Live Help: Busy"
+msgstr "Livehjälp: Upptagen"
+
+#: ilmenite-olark.php:190
+msgid "Our live support feature is currently offline, Please try again later."
+msgstr ""
+"Vår livesupport är tyvärr inte tillgänglig just nu, prova gärna igen lite "
+"senare."
+
+#: ilmenite-olark.php:191
+msgid "Loading Olark..."
+msgstr "Laddar Olark..."
+
+#: ilmenite-olark.php:192
+msgid ""
+"Welcome! You can use this window to get in touch with one of our "
+"representatives right away."
+msgstr ""
+"Välkommen! Du kan använda detta fönster för att få hjälp av en av våra "
+"medarbetare direkt."
+
+#: ilmenite-olark.php:193
+msgid ""
+"All of our representatives are with other customers at this time. We will be "
+"with you shortly."
+msgstr ""
+"Alla våra medarbetare är upptagna med andra kunder just nu. Vi kommer hjälpa "
+"dig inom kort."
+
+#: ilmenite-olark.php:194
+msgid "Type here and hit enter to chat"
+msgstr "Skriv här och tryck enter för att chatta"
+
+#: ilmenite-olark.php:195
+msgid "and type your Name"
+msgstr "och skriv ditt namn"
+
+#: ilmenite-olark.php:196
+msgid "and type your Email"
+msgstr "och skriv din e-post"
+
+#: ilmenite-olark.php:197
+msgid "We are offline, send us a message"
+msgstr "Vi är offline, skicka oss ett meddelande"
+
+#: ilmenite-olark.php:198
+msgid "Send"
+msgstr "Skicka"
+
+#: ilmenite-olark.php:199
+msgid "Thank you for your message. We will get back to you as soon as we can."
+msgstr "Tack för ditt meddelande. Vi återkommer till dig så snart vi kan."
+
+#: ilmenite-olark.php:200
+msgid "You must complete all fields and specify a valid email address"
+msgstr "Du måste fylla i alla fält och ange en giltig e-postadress"
+
+#: ilmenite-olark.php:201
+msgid "Sending..."
+msgstr "Skickar..."
+
+#: ilmenite-olark.php:202
+msgid "is typing..."
+msgstr "skriver..."
+
+#: ilmenite-olark.php:203
+msgid "has stopped typing"
+msgstr "har slutat skriva"
+
+#: ilmenite-olark.php:204
+msgid ""
+"Please leave a name and email address so we can contact you in case we get "
+"disconnected"
+msgstr ""
+"Lämna gärna ett namn och e-postadress så att vi kan kontakta dig om vi blir "
+"nedkopplade"
+
+#: ilmenite-olark.php:205
+msgid ""
+"Welcome, just fill out some brief information and click 'Start chat' to talk "
+"to us"
+msgstr ""
+"Välkommen! Fyll bara i lite kort information och klicka 'Börja chatta' för "
+"att prata med oss"
+
+#: ilmenite-olark.php:206
+msgid "Start chat"
+msgstr "Börja chatta"
+
+#: ilmenite-olark.php:207
+msgid "chat ended, refresh for new chat"
+msgstr "chatten avslutades, ladda om för en ny chatt"
+
+#: ilmenite-olark.php:208
+msgid ""
+"This conversation has ended, but all you need to do is refresh the page to "
+"start a new one!"
+msgstr ""
+"Den här konversationen har avslutats, men allt du behöver göra är att ladda "
+"om sidan för att starta en ny!"
+
+#: ilmenite-olark.php:209
+msgid "Pre-Chat Survey NAME"
+msgstr "Undersökning NAME"
+
+#: ilmenite-olark.php:210
+msgid "Pre-Chat Survey PHONE"
+msgstr "Undersökning PHONE"
+
+#: ilmenite-olark.php:211
+msgid "Pre-Chat Survey EMAIL"
+msgstr "Undersökning EMAIL"
+
+#: ilmenite-olark.php:212
+msgid "Pre-Chat Survey SENDBUTTON"
+msgstr "Undersökning SENDBUTTON"
+
+#~ msgid ""
+#~ "Welcome to my website.  You can use this chat window to chat with me."
+#~ msgstr ""
+#~ "Välkommen till min hemsida. Du kan använda detta chattfönstret för att "
+#~ "chatta med mig."
