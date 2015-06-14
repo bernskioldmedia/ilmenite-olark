@@ -5,6 +5,7 @@ Requires at least: 4.0
 Tested up to: 4.2
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Stable tag: trunk
 
 Integrates live chat application Olark with your WordPress site with full localization support.
 
