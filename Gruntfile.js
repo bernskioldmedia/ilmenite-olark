@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 	                exclude: [
 	                	'node_modules'
 	                ],
-	                mainFile: 'ilmenite-cookie-consent.php',
+	                mainFile: 'ilmenite-olark.php',
 	                potFilename: 'ilolark.pot',
 	                processPot: function( pot, options ) {
 	                    pot.headers['report-msgid-bugs-to'] = 'https://github.com/bernskioldmedia/ilmenite-olark/issues';
