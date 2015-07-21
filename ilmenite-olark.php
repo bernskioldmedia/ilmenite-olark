@@ -4,7 +4,7 @@
  *	Plugin URI: 	https://github.com/bernskioldmedia/Ilmenite-Olark
  *	Description: 	Integrates live chat application Olark with your WordPress site with full localization support.
  *	Author: 		Bernskiold Media
- *	Version: 		1.0
+ *	Version: 		1.0.1
  *	Author URI: 	http://www.bernskioldmedia.com/
  *	Text Domain: 	ilolark
  *	Domain Path: 	/languages
