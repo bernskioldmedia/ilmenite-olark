@@ -5,6 +5,8 @@ Adding your Olark code to your WordPress site is really easy. We wanted a straig
 
 For this reason, we created this little Olark WordPress plugin to save our and others' time when adding translated chat boxes from Olark. In a future plugin version, we aim to support custom texts too.
 
+We thank Olark for recommending this plugin for installing their chat box to your WordPress website.
+
 This plugin was created by Erik Bernskiold at Bernskiold Media [http://www.bernskioldmedia.com].
 
 ## Installation & Configuration
@@ -28,6 +30,7 @@ We provide minimal support for this plugin, but we are happy to take requests an
 
 **Version 1.0.2**
 - Fixed a minor bug where a notice would show when debug was on.
+- Updated textdomain to "new" WordPress standard.
 
 **Version 1.0.1**
 - Improved the Olark strings.
@@ -42,7 +45,7 @@ This plugin was created by Erik Bernskiold at Bernskiold Media [http://www.berns
 ## License
 This plugin is licensed under GPL. Feel free to use it in personal and commercial projects as you wish.
 
-Copyright © 2015 Bernskiold Media AB
+Copyright © 2017 Bernskiold Media AB
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

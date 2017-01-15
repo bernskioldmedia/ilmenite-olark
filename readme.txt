@@ -37,6 +37,10 @@ The plugin works out of the box with minimal settings. Visit the settings page a
 
 == Changelog ==
 
+= 1.0.2 =
+- Fixed a minor bug where a notice would show when debug was on.
+- Updated textdomain to "new" WordPress standard.
+
 = 1.0.1 =
 - Improved the Olark strings.
 - Updated Swedish translation.
@@ -45,6 +49,10 @@ The plugin works out of the box with minimal settings. Visit the settings page a
 - First plugin version.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+- Fixed a minor bug where a notice would show when debug was on.
+- Updated textdomain to "new" WordPress standard.
 
 = 1.0.1 =
 - Improved the Olark strings.
