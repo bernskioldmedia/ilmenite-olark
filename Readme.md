@@ -26,6 +26,9 @@ We provide minimal support for this plugin, but we are happy to take requests an
 
 ## Changelog
 
+**Version 1.0.2**
+- Fixed a minor bug where a notice would show when debug was on.
+
 **Version 1.0.1**
 - Improved the Olark strings.
 - Updated Swedish translation.
