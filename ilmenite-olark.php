@@ -4,7 +4,7 @@
  *	Plugin URI: 	https://github.com/bernskioldmedia/Ilmenite-Olark
  *	Description: 	Integrates live chat application Olark with your WordPress site with full localization support.
  *	Author: 		Bernskiold Media
- *	Version: 		1.0.1
+ *	Version: 		1.0.2
  *	Author URI: 	http://www.bernskioldmedia.com/
  *	Text Domain: 	ilolark
  *	Domain Path: 	/languages
@@ -68,7 +68,7 @@ class Ilmenite_Olark {
 		$this->plugin_url = untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) );
 
 		// Set the plugin version
-		$this->plugin_version = '1.0';
+		$this->plugin_version = '1.0.2';
 
 		// Add Translation Loading
 		add_action( 'plugins_loaded', array( $this, 'add_textdomain' ) );
@@ -104,10 +104,15 @@ class Ilmenite_Olark {
 	 */
 	public function get_plugin_options( $option, $default = '' ) {
 
-		if ( ! $option )
+		if ( ! $option ) {
 			return false;
+		}
 
-		$options_array = get_option( 'ilolark_settings' );
+		$options_array = get_option( 'ilolark_settings', array() );
+
+		if ( empty( $options_array ) ) {
+			return false;
+		}
 
 		$requested_option = $options_array[ $option ];
 
@@ -133,12 +138,14 @@ class Ilmenite_Olark {
 		$account_id = $this->get_plugin_options( 'ilolark_siteid' );
 
 		// If Olark box isn't activated, then don't run any further.
-		if ( '1' != $activated )
+		if ( '1' != $activated ) {
 			return;
+		}
 
 		// If no account ID is set, we don't output anything.
-		if ( ! $account_id )
+		if ( ! $account_id ) {
 			return;
+		}
 
 		ob_start(); ?>
 
@@ -177,8 +184,9 @@ class Ilmenite_Olark {
 		$localize = $this->get_plugin_options( 'ilolark_localize' );
 
 		// If we haven't set to localize the script, then don't output the localization code
-		if ( '1' != $localize )
+		if ( '1' != $localize ) {
 			return;
+		}
 
 		ob_start(); ?>
 
