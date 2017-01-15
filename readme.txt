@@ -1,8 +1,8 @@
 === Ilmenite Olark ===
-Contributors: Erik Bernskiold
+Contributors: Erik Bernskiold, BernskioldMedia
 Tags: olark, live chat, integration
 Requires at least: 4.0
-Tested up to: 4.3
+Tested up to: 4.7
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Stable tag: trunk
@@ -13,6 +13,8 @@ Integrates live chat application Olark with your WordPress site with full locali
 Adding your Olark code to your WordPress site is really easy. We wanted a straight and reusable way of configuring the chat box across all of our sites and offering localization support.
 
 For this reason, we created this little Olark WordPress plugin to save our and others\' time when adding translated chat boxes from Olark. In a future plugin version, we aim to support custom texts too.
+
+We thank Olark for recommending this plugin for installing their chat box to your WordPress website.
 
 This plugin was created by Erik Bernskiold at Bernskiold Media [http://www.bernskioldmedia.com].
 
