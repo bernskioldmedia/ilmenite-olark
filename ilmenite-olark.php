@@ -6,7 +6,7 @@
  *	Author: 		Bernskiold Media
  *	Version: 		1.0.2
  *	Author URI: 	http://www.bernskioldmedia.com/
- *	Text Domain: 	ilolark
+ *	Text Domain: 	ilmenite-olark
  *	Domain Path: 	/languages
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -89,7 +89,7 @@ class Ilmenite_Olark {
 	 * Load the Translations
 	 */
 	public function add_textdomain() {
-		load_plugin_textdomain( 'ilolark', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'ilmenite-olark', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 
 	/**
@@ -167,7 +167,7 @@ class Ilmenite_Olark {
 		b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
 		loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
 		/* custom configuration goes here (www.olark.com/documentation) */
-		olark.identify('<?php echo $account_id; ?>');/*]]>*/</script><noscript><a href="https://www.olark.com/site/<?php echo $account_id; ?>/contact" title="<?php _e( 'Contact us', 'ilolark' ); ?>" target="_blank"><?php _e( 'Questions? Feedback?', 'ilolark' ); ?></a> <?php _e( 'powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a>', 'ilolark' ); ?></noscript>
+		olark.identify('<?php echo $account_id; ?>');/*]]>*/</script><noscript><a href="https://www.olark.com/site/<?php echo $account_id; ?>/contact" title="<?php _e( 'Contact us', 'ilmenite-olark' ); ?>" target="_blank"><?php _e( 'Questions? Feedback?', 'ilmenite-olark' ); ?></a> <?php _e( 'powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a>', 'ilmenite-olark' ); ?></noscript>
 		<!-- end olark code -->
 
 		<?php
@@ -191,33 +191,33 @@ class Ilmenite_Olark {
 		ob_start(); ?>
 
 		<script type='text/javascript'>
-		   olark.configure('locale.welcome_title', "<?php _e( 'Help? Click to chat!', 'ilolark' ); ?>");
-		   olark.configure('locale.chatting_title', "<?php _e( 'Chatting With Our Agent', 'ilolark' ); ?>");
-		   olark.configure('locale.unavailable_title', "<?php _e( 'Help? Send a message!', 'ilolark' ); ?>");
-		   olark.configure('locale.busy_title', "<?php _e( 'Help? Send a message!', 'ilolark' ); ?>");
-		   olark.configure('locale.away_message', "<?php _e( 'Do you need help? Leave a message and we will get back to you as soon as we can.', 'ilolark' ); ?>");
-		   olark.configure('locale.loading_title', "<?php _e( 'Loading...', 'ilolark' ); ?>");
-		   olark.configure('locale.welcome_message', "<?php _e( 'Welcome! You can use this window to get in touch with one of our representatives right away.', 'ilolark' ); ?>");
-		   olark.configure('locale.busy_message', "<?php _e( 'All of our representatives are with other customers at this time. We will be with you shortly.', 'ilolark' ); ?>");
-		   olark.configure('locale.chat_input_text', "<?php _e( 'Type here and hit enter to chat', 'ilolark' ); ?>");
-		   olark.configure('locale.name_input_text', " <?php _e( 'and type your Name', 'ilolark' ); ?>");
-		   olark.configure('locale.email_input_text', " <?php _e( 'and type your Email', 'ilolark' ); ?>");
-		   olark.configure('locale.offline_note_message', "<?php _e( 'Do you need help? Leave a message and we will get back to you as soon as we can.', 'ilolark' ); ?>");
-		   olark.configure('locale.send_button_text', "<?php _e( 'Send', 'ilolark' ); ?>");
-		   olark.configure('locale.offline_note_thankyou_text', "<?php _e( 'Thank you for your message. We will get back to you as soon as we can.', 'ilolark' ); ?>");
-		   olark.configure('locale.offline_note_error_text', "<?php _e( 'You must complete all fields and specify a valid email address', 'ilolark' ); ?>");
-		   olark.configure('locale.offline_note_sending_text', "<?php _e( 'Sending...', 'ilolark' ); ?>");
-		   olark.configure('locale.operator_is_typing_text', "<?php _e( 'is typing...', 'ilolark' ); ?>");
-		   olark.configure('locale.operator_has_stopped_typing_text', "<?php _e( 'has stopped typing', 'ilolark' ); ?>");
-		   olark.configure('locale.introduction_error_text', "<?php _e( 'Please leave a name and email address so we can contact you in case we get disconnected', 'ilolark' ); ?>");
-		   olark.configure('locale.introduction_messages', "<?php _e( 'Welcome, just fill out some brief information and click \'Start chat\' to talk to us', 'ilolark' ); ?>");
-		   olark.configure('locale.introduction_submit_button_text', "<?php _e( 'Start chat', 'ilolark' ); ?>");
-		   olark.configure('locale.disabled_input_text_when_convo_has_ended', "<?php _e( 'chat ended, refresh for new chat', 'ilolark' ); ?>");
-		   olark.configure('locale.disabled_panel_text_when_convo_has_ended', "<?php _e( 'This conversation has ended, but all you need to do is refresh the page to start a new one!', 'ilolark' ); ?>");
-		   olark.configure('locale.name_input_text', "<?php _e( 'Name', 'ilolark' ); ?>");
-		   olark.configure('locale.phone_input_text', "<?php _e( 'Phone', 'ilolark' ); ?>");
-		   olark.configure('locale.email_input_text', "<?php _e( 'E-mail', 'ilolark' ); ?>");
-		   olark.configure('locale.send_button_text', "<?php _e( 'Send', 'ilolark' ); ?>");
+		   olark.configure('locale.welcome_title', "<?php _e( 'Help? Click to chat!', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.chatting_title', "<?php _e( 'Chatting With Our Agent', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.unavailable_title', "<?php _e( 'Help? Send a message!', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.busy_title', "<?php _e( 'Help? Send a message!', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.away_message', "<?php _e( 'Do you need help? Leave a message and we will get back to you as soon as we can.', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.loading_title', "<?php _e( 'Loading...', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.welcome_message', "<?php _e( 'Welcome! You can use this window to get in touch with one of our representatives right away.', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.busy_message', "<?php _e( 'All of our representatives are with other customers at this time. We will be with you shortly.', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.chat_input_text', "<?php _e( 'Type here and hit enter to chat', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.name_input_text', " <?php _e( 'and type your Name', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.email_input_text', " <?php _e( 'and type your Email', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.offline_note_message', "<?php _e( 'Do you need help? Leave a message and we will get back to you as soon as we can.', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.send_button_text', "<?php _e( 'Send', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.offline_note_thankyou_text', "<?php _e( 'Thank you for your message. We will get back to you as soon as we can.', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.offline_note_error_text', "<?php _e( 'You must complete all fields and specify a valid email address', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.offline_note_sending_text', "<?php _e( 'Sending...', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.operator_is_typing_text', "<?php _e( 'is typing...', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.operator_has_stopped_typing_text', "<?php _e( 'has stopped typing', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.introduction_error_text', "<?php _e( 'Please leave a name and email address so we can contact you in case we get disconnected', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.introduction_messages', "<?php _e( 'Welcome, just fill out some brief information and click \'Start chat\' to talk to us', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.introduction_submit_button_text', "<?php _e( 'Start chat', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.disabled_input_text_when_convo_has_ended', "<?php _e( 'chat ended, refresh for new chat', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.disabled_panel_text_when_convo_has_ended', "<?php _e( 'This conversation has ended, but all you need to do is refresh the page to start a new one!', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.name_input_text', "<?php _e( 'Name', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.phone_input_text', "<?php _e( 'Phone', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.email_input_text', "<?php _e( 'E-mail', 'ilmenite-olark' ); ?>");
+		   olark.configure('locale.send_button_text', "<?php _e( 'Send', 'ilmenite-olark' ); ?>");
 		</script>
 
 		<?php
